@@ -3,6 +3,8 @@ import {Name,fruit, trr as vish} from './script';
 import Fname from './script';
 import * as script from './script'
 
+import * as index from './Index';
+
 console.log(Name);
 console.log(fruit);
 console.log (Fname);
