@@ -26,3 +26,33 @@
 // const a=12;
 
 
+//Scopes (global , block & functional)
+
+// var a=12// global
+
+// function a(){
+//     var a= 17;
+// }
+
+
+//Redeclarations & Reassignments
+
+// var a= 12;
+// a=32;//re  assign 
+// var a=24//re decalaration is possible with var 
+
+// let b=32;
+// b=32;
+
+
+// TDZ //utna area jitne main js ko pata hai ki variable access karta hai par access nahi de sakta 
+console.log(a); // not defined 
+// let a=12; //reference error  (not initialized)
+var a=12;//undefined
+
+//Hoisting impact per type
+// hoisting -> ek variable ko jab js main banate hai tab wo variable 2 hisso main tut jata ha & uska declare part upar chala jata ahhi and uska init part niche rah jata hai 
+
+var a=12;
+
+
