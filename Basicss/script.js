@@ -71,4 +71,13 @@ var x=1;
     var x=2;
 }
 console.log(x);
-//Output x=1
+//Output x=2
+
+
+let a = 10;
+{
+    let a=20;
+    console.log("Inside:", a); //20
+}
+console.log("Outside:", a); // 10
+ // Block- Level Counter using let /const
