@@ -55,4 +55,20 @@ var a=12;//undefined
 
 var a=12;
 
+//Commun Confusion
 
+console.log(nm);
+var nm="harsh";
+// Output : undefined
+
+
+console.log(age);
+let age = 25;
+//Output : Reference Error
+
+var x=1;
+{
+    var x=2;
+}
+console.log(x);
+//Output x=1
